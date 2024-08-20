@@ -26,21 +26,17 @@ const About = () => {
               I'am Freelance Full stack Developer with +1 year proven exeperience
             </h3>
             <p className='mb-6'>
-            I am a dedicated full-stack developer with over six months of
-              professional experience in developing and maintaining web
-              applications. My expertise includes working with a range of
-              technologies such as Content Managment DNN, PHP, AngularJS,
-              ReactJS, PostgreSQL, MongoDB, and MSSQL. I have successfully
-              contributed to several projects, enhancing their performance and
-              scalability. 
+            I am a versatile full-stack developer with expertise in a wide range of technologies. My skill set includes ReactJS and Tailwind CSS for building responsive and dynamic user interfaces, along with Angular, Angular Material, and Syncfusion for creating robust and user-friendly applications. I have experience in backend development using Node.js and .NET, and I am proficient in managing databases with MSSQL, MongoDB, and MySQL.
+
+In addition to my software development skills, I have also knowledge in geospatial technologies, including GeoServer, QGIS, and PostGIS.
             </p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {
 
-                  inView ? <CountUp start={0} end={13} duration={3} />:null
-                  }
+                  inView ? <CountUp start={0} end={1} duration={3} />:null
+                  }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Year Of <br />
@@ -51,9 +47,8 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {
 
-                  inView ? <CountUp start={0} end={20} duration={3} />:null
-                  }
-                  k+
+                  inView ? <CountUp start={0} end={5} duration={3} />:null
+                  }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Project <br />
@@ -61,7 +56,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div>
+              {/* <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {
 
@@ -72,7 +67,7 @@ const About = () => {
                   Satisified <br />
                   Client
                 </div>
-              </div>
+              </div> */}
                          </div>
                          <div className='flex gap-x-8 items-center'>
 

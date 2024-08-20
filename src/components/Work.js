@@ -2,9 +2,10 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import Image1 from "../assets/portfolio-img1.png";
-import Image2 from "../assets/portfolio-img2.png";
-import Image3 from "../assets/portfolio-img3.png";
+import Image1 from "../assets/lands.png";
+import Image2 from "../assets/Ecommerce.png";
+import Image3 from "../assets/dashboard.png";
+import Image4 from "../assets/status4.PNG";
 const Work = () => {
   return (
     <section className="section" id="work">
@@ -44,13 +45,13 @@ rounded-xl"
                   className="absolute -bottom-full left-12 group-hover:bottom-24 
     transition-all duration-500 z-50 "
                 >
-                  <span className="text-gradient">UX/UI Design</span>
+                  <span className="text-gradient">UI & API Design</span>
                 </div>
                 <div
                   className="absolute -bottom-full left-12 group-hover:bottom-14 
     transition-all duration-700 z-50 "
                 >
-                  <span className="text-3xl text-white">project Title</span>
+                  <span className="text-3xl text-white">Addis Ababa lad Administration</span>
                 </div>
               </div>
             </div>
@@ -80,7 +81,7 @@ rounded-xl"
                   className="absolute -bottom-full left-12 group-hover:bottom-14 
     transition-all duration-700 z-50 "
                 >
-                  <span className="text-3xl text-white">project Title</span>
+                  <span className="text-3xl text-white">Ecommerce</span>
                 </div>
               </div>
             </div>
@@ -105,7 +106,7 @@ rounded-xl"
                   className="absolute -bottom-full left-12 group-hover:bottom-14 
     transition-all duration-700 z-50 "
                 >
-                  <span className="text-3xl text-white">project Title</span>
+                  <span className="text-3xl text-white">Dashboard</span>
                 </div>
               </div>
             </div>

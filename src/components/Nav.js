@@ -30,7 +30,14 @@ rounded-full max-w-[460px] mx-auto px-5 flex item-center justify-between text-2x
    spy={true}
   className='cursor-pointer w-[60px] flex items-center justify-center'>
   <BsClipboardData />
-  </Link> 
+  </Link>
+  {/* <Link to='skill' 
+   activeClass='active' 
+   smooth={true} 
+   spy={true}
+  className='cursor-pointer w-[60px] flex items-center justify-center'>
+  <BsClipboardData />
+  </Link>  */}
   <Link to='work' 
    activeClass='active' 
    smooth={true} 
