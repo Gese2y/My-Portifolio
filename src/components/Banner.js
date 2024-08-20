@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../assets/pic1.png";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaDribbble,FaTelegramPlane,FaLinkedin,FaLinkedinIn } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const Banner = () => {
@@ -75,15 +75,21 @@ const Banner = () => {
     initial='hidden'
   whileInView={'show'}
     viewport={{once:false, amount:0.7}}  className="flex text-[20px] gap-x-6 max-w-max mx-auto">
-              <a href="#">
-                <FaYoutube />
+              <a href="https://t.me/Gyat728">
+                <FaTelegramPlane />
               </a>
-              <a href="#">
+              <a href="https://github.com/Gese2y/">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://gesese-teshome.vercel.app/">
                 <FaDribbble />
               </a>
+              <a href="https://www.linkedin.com/in/gesese-teshome-b1a344288">
+                <FaLinkedinIn />
+              </a>
+               {/* <a href="https://gesese-teshome.vercel.app/">
+                <FaLinkedin />
+              </a> */}
             </motion.div>
           </div>
           <motion.div variants={fadeIn('down',0.5)}
