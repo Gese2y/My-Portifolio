@@ -121,11 +121,11 @@ const Skill = () => {
   <img src={Image} alt="Microsoft SQL Server Logo" className="w-16 h-16" />
 </motion.div>
 <motion.div
-  variants={iconVariants(3)}
+  variants={iconVariants(2)}
   initial="initial"
   animate="animate"
   className="rounded-2xl border-4 border-neutral-800 p-4"
-  title="Microsoft SQL Server"
+  title="Geoserver"
 >
   <img src={geoserver} alt="Microsoft SQL Server Logo" className="w-16 h-16" />
 </motion.div>
